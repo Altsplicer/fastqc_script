@@ -21,7 +21,7 @@ Otherwise your job can be killed in the free partition.
 #SBATCH -p free
 #SBATCH --nodes=1
 #SBATCH --mem=100G ## request 100GB of memory
-#SBATCH -o /dfs3b/hertel-lab/fcarranz/project_name/fastqc/multifastqc.out ## the name of the output file.
+#SBATCH -o /dfs3b/hertel-lab/fcarranz/project_name/fastqc/multifastqc.out ## the name of the job report output file
 #SBATCH -e /dfs3b/hertel-lab/fcarranz/project_name/fastqc/multifastqc.err ## name of the error file
 #SBATCH --mail-user fcarranz@uci.edu
 #SBATCH --mail-type=ALL
