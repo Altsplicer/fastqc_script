@@ -73,4 +73,4 @@ done
 fastqc $FILE
 	--outdir ${QC_OUT_DIR}
 ``` 
-## Please note if any of these commands are not sent in as slurm job but done in the terminal then you need to be in a interactive node, NOT THE LOGIN NODE! You will get in trouble with UCI's HPC staff. 
+## Please note if any of these commands are not sent in as a slurm job, but done in the terminal, then you need to be in a interactive node, NOT THE LOGIN NODE! You will get in trouble with UCI's HPC staff. 
