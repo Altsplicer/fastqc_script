@@ -2,6 +2,8 @@
 
 [![.img/fastqc.png](.img/fastqc.png)](#nolink)
 
+Script [LINK](https://github.com/Altsplicer/fastqc_script/blob/main/bash/fastqc_multi.sub)
+
 ## Overview
 This a script used for multi fastqc reports or a single fastqc report for sequencing data.
 Fastqc is a QC tool for high throughput sequence data.
