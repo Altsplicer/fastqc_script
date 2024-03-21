@@ -7,10 +7,11 @@ This a script used for multi fastqc reports or a single fastqc report for sequen
 Fastqc is a QC tool for high throughput sequence data.
 For a tutorial see [link](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salmon-flipped/lessons/05_qc_running_fastqc_interactively.html)
 
-#Slurm script headers
+## Slurm script headers
 UCI uses the SLURM scheduler so you must use slurm headers to specify how and where you want the job to run. 
 Also not you must name the script SCRIPT_NAME.sub and then run the script using "Sbatch SCRIPT_NAME.sub" while your working directory is in location of the said script. 
-For a more in depth view on a SLURM job script headers see https://rcic.uci.edu/slurm/examples.html
+For a more in depth view on a SLURM job script headers see https://rcic.uci.edu/slurm/examples.html.
+
 Make note that this script uses the free partition but you can use your free 1000 core hours of the lab's core hours by changing the header.
 Otherwise your job can be killed in the free partition.
 ``` bash
