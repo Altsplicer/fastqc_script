@@ -9,7 +9,8 @@ For a tutorial see [link](https://hbctraining.github.io/Intro-to-rnaseq-hpc-salm
 
 ## Slurm script headers
 UCI uses the SLURM scheduler so you must use slurm headers to specify how and where you want the job to run. 
-Also not you must name the script SCRIPT_NAME.sub and then run the script using "Sbatch SCRIPT_NAME.sub" while your working directory is in location of the said script. 
+You must also name the script SCRIPT_NAME.sub and then run the script using "Sbatch SCRIPT_NAME.sub" while your working directory is in location of the script being run. 
+
 For a more in depth view on a SLURM job script headers see https://rcic.uci.edu/slurm/examples.html.
 
 Make note that this script uses the free partition but you can use your free 1000 core hours of the lab's core hours by changing the header.
@@ -72,4 +73,4 @@ done
 fastqc $FILE
 	--outdir ${QC_OUT_DIR}
 ``` 
-##Please note if any of these commands are not sent in as slurm job but done in the terminal then you need to be in a interactive node, NOT THE LOGIN NODE! You will get in trouble with UCI's HPC staff. 
+## Please note if any of these commands are not sent in as slurm job but done in the terminal then you need to be in a interactive node, NOT THE LOGIN NODE! You will get in trouble with UCI's HPC staff. 
